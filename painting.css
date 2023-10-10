@@ -1,41 +1,61 @@
-.flex-container {
-    background-color: rgb(41, 41, 41);
-    height: 500px;
-    width: 1000px;
-    display: inline-flex;
+@media screen and (max-width: 480px) and (max-height: 320px) {
+}
+
+@media screen and (width: 1024px) and (height: 768px) {
+}
+
+@media screen and (width: 1680px) and (height: 1050px) {
+}
+
+header {
+    border: solid;
+    background-color: rgb(49, 49, 49);
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+#canvas {
+    background-color: rgb(48, 48, 48);
+    height: 25vh;
+    width: 100%;
     z-index: -1;
-    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
 }
 
 #box1 {
-    background-color: rgb(3, 121, 255);
-    height: 250px;
-    width: 350px;
-    z-index: 1;
-    margin: 5px;
+    background-color: blue;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
 }
 
 #box2 {
-    background-color: rgb(3, 121, 255);
-    height: 250px;
-    width: 350px;
-    z-index: 1;
-    margin: 5px;
+    background-color: blue;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
 }
 
 #box3 {
-    background-color: rgb(3, 121, 255);
-    height: 250px;
-    width: 350px;
-    z-index: 1;
-    margin: 5px;
+    background-color: blue;
+    height: 200px;
+    width: 250px;
+    margin: 10px; 
 }
 
-#rectangle {
-    background-color: rgb(3, 121, 255);
-    height: 250px;
-    width: 85.5%;
-    z-index: 1;
-    margin: 5px;
-    float: bottom;
+form {
+    text-align: center;
+    margin: 20px;
 }

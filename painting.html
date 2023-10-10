@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="painting.css">
 </head>
 <body>
-    <h1>CSS Painting</h1>
-    <div class="flex-container">
-        <div id="box1"></div>
-        <div id="box2"></div>
-        <div id="box3"></div>
-        <div id="rectangle"></div>
-        <div id="triangle1"></div>
-        <div id="triangle2"></div>
+    <header>
+    <h1>Abstract CSS Painting</h1>
+    </header>
+    <div id="canvas">
+        <section class="boxes">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+        </Section>
     </div>
 
-    <form>
-        <label for="Name">Name: </label>
+    <form action="submit.html">
+        <label for="name">Name: </label>
         <input type="text" id="name" placeholder="Name">
         <label for="email">Email: </label>
-        <input type="text" id="email" placeholder="Email">
+        <input type="email" id="email" placeholder="Email">
+
+        <button type="submit" id="submit-button">Submit</button>
     </form>
 </body>
 </html>
