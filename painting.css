@@ -1,0 +1,41 @@
+.flex-container {
+    background-color: rgb(41, 41, 41);
+    height: 500px;
+    width: 1000px;
+    display: inline-flex;
+    z-index: -1;
+    padding: 5px;
+}
+
+#box1 {
+    background-color: rgb(3, 121, 255);
+    height: 250px;
+    width: 350px;
+    z-index: 1;
+    margin: 5px;
+}
+
+#box2 {
+    background-color: rgb(3, 121, 255);
+    height: 250px;
+    width: 350px;
+    z-index: 1;
+    margin: 5px;
+}
+
+#box3 {
+    background-color: rgb(3, 121, 255);
+    height: 250px;
+    width: 350px;
+    z-index: 1;
+    margin: 5px;
+}
+
+#rectangle {
+    background-color: rgb(3, 121, 255);
+    height: 250px;
+    width: 85.5%;
+    z-index: 1;
+    margin: 5px;
+    float: bottom;
+}
